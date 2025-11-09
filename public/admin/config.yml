@@ -2,8 +2,8 @@ backend:
   name: github
   branch: main # change this to your branch
   repo: zhangtaoran2010/Astro-theme-Cactus-zh_CN # 1、change this to your repo
-  site_domain: localhost:4322 # 2、change this to your domain
-  base_url: http://localhost:4322 # 3、change this to your prod URL
+  site_domain: note.ztr8.uk # 2、change this to your domain
+  base_url: https://note.ztr8.uk # 3、change this to your prod URL
   auth_endpoint: oauth # the oauth route provided by the integration
 
 collections:
