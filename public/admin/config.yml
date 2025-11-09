@@ -1,9 +1,9 @@
 backend:
   name: github
   branch: main # change this to your branch
-  repo: example/cactus # 1、change this to your repo
-  site_domain: example.com # 2、change this to your domain
-  base_url: https://example.com # 3、change this to your prod URL
+  repo: zhangtaoran2010/Astro-theme-Cactus-zh_CN # 1、change this to your repo
+  site_domain: localhost:4321 # 2、change this to your domain
+  base_url: http://localhost:4321 # 3、change this to your prod URL
   auth_endpoint: oauth # the oauth route provided by the integration
 
 collections:
@@ -64,4 +64,3 @@ collections:
 
 media_folder: "public/assets/images" # 文件将被存储在仓库中的位置
 public_folder: "/assets/images" # 上传媒体文件的 src 属性
-
